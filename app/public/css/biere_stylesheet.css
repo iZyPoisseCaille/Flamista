@@ -1,6 +1,6 @@
 /*EVERYTHING*/
-*{
-    margin:0;
+* {
+    margin: 0;
 }
 
 body {
@@ -16,27 +16,23 @@ header nav {
 header nav ul {
     margin: 0;
     padding: 0;
-
     width: 70%;
-
     display: flex;
     justify-content: center;
 }
 
 header nav li {
     list-style: none;
-
     margin-left: 2%;
     margin-right: 2%;
 }
 
 .headerLink {
     padding-top: 45px;
-
     margin-bottom: -50px;
 }
 
-#headerLink:hover{
+#headerLink:hover {
     text-decoration: underline;
     color: #00B9F0;
 }
@@ -54,19 +50,16 @@ header nav li {
     height: 100px;
 }
 
-.filAriane{
+.filAriane {
     font-family: 'Biko';
-
     background-color: #00B9F0;
-
     padding-top: 1%;
     padding-bottom: 1%;
-
     padding-left: 5%;
     padding-right: 5%;
 }
 
-.filAriane h4, .filAriane a{
+.filAriane h4, .filAriane a {
     display: inline-block;
     color: black;
 }
@@ -77,169 +70,32 @@ header nav li {
 
 /*MAIN*/
 
-/*CAROUSSEL*/
-.carrouselElements {
-    display: block;
 
-    width: 25%;
-
-    padding-top: 10%;
-    margin-left: 10%;
-}
-
-.carrouselTitre {
-    font-family: 'Caviar Dreams';
-    text-align: left;
-    font-size: 1.5em;
-    
-    color: white;
-}
-
-.carrouselDecouvrirPlus {
-    margin-top: 5%;
-}
-
-.carrouselFleche, .carrouselLien {
-    display: inline-block;
-}
-
-.carrouselFleche {
-    width: 15px;
-    height: 15px;
-}
-
-.carrouselLien {
-    color: #00B9F0;
-    text-decoration: underline;
-    font-size: 1.2em;
-    font-family: 'Biko';
-}
-
-.carrouselLien:hover {
-    color: #0099F0;
-}
-
-.carrouselImgs {
-    background-color: gray;
-    /*background-image: */
-    width: 100%;
-    height: auto;
-
-    padding-bottom: 1%;
-}
-
-.carrouselBoutons {
-    display: flex;
-    justify-content: center;
-
-    height: 60%;
-}
-
-.carrouselBouton {
-    width: 20px;
-    height: 20px;
-
-    background-color: darkgray;
-    border-radius: 100%;
-
-    margin-top: 19%;
-    margin-right: .5%;
-    margin-left: .5%;
-}
-
-/*TITRES*/
-.titres {
-    font-family: 'Caviar Dreams';
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 1.5em;
-
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-/*PUBLICITE*/
-.pub {
-    display: flex;
-    justify-content: center;
-
-    margin-bottom: 3%;
-}
-
-/*ENGAGEMENTS*/
-#engagements {
-    display: inline-block;
-    width: 90%;
-
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.engagementsTexte {
-    width: 50%;
-}
-
-.engagementsTitre {
-    margin-bottom: 5%;
-}
-
-.engagementsTitre h3 {
-    font-family: 'Caviar Dreams';
-    font-size: 1.25em;
-}
-
-.engagementsTexte p {
-    font-family: 'Biko';
-    font-size: 1em;
-
-    margin-top: 2%;
-}
-
-.engagementsImage {
-    display: flex;
-    justify-content: right;
-}
-
-.engagementsImage img {
-    width: auto;
-    height: 20em;
-
-    margin-top: -17.5em;
-}
 
 /*FOOTER*/
 footer {
     margin-top: 2%;
-
     padding-bottom: 1%;
 }
 
 #footer {
     background-color: #00B9F0;
-
     margin-left: 10%;
     margin-right: 10%;
-
     padding-bottom: 2%;
 }
 
 .footerLogo {
     display: flex;
     justify-content: center;
-
     width: 100%;
-
     padding-top: 0.5%;
-
     margin-bottom: 2%;
 }
 
 .footerLogo img {
     width: 10%;
     height: auto;
-
     background-color: white;
 }
 
@@ -259,22 +115,18 @@ footer {
 
 .reseauxBoutons ul {
     list-style: none;
-
     width: 100%;
-
     margin-top: -3%;
     margin-left: -20%;
 }
 
 .footerReseauxLink {
     display: inline-block;
-
     margin-right: 3%;
 }
 
 .footerReseauxLink img {
     width: 50px;
-
     border: 3px solid black;
     border-radius: 100%;
 }
@@ -282,19 +134,15 @@ footer {
 .plansite nav {
     display: flex;
     justify-content: center;
-
     margin-left: 2%;
     margin-right: 2%;
 }
 
 .plansite nav ul {
     list-style: none;
-    
     width: 100%;
-
     display: flex;
     justify-content: center;
-
     margin-left: 17.5%;
 }
 
@@ -321,7 +169,6 @@ footer {
     color: black;
     text-align: right;
     font-size: 1em;
-
     width: 30%;
     margin-right: 2.5%;
 }
@@ -329,7 +176,6 @@ footer {
 .prevention {
     display: flex;
     justify-content: center;
-
     margin-top: 1%;
 }
 

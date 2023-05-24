@@ -18,13 +18,13 @@
                     <nav>
                         <ul>
                             <li class="footerLink"><a id="footerLink" href="accueil.php">Accueil</a></li>
-                            <li class="footerLinkBar"><p>|</p></li>
+                            <li><p>|</p></li>
                             <li class="footerLink"><a id="footerLink" href="plansite.php">Plan du site</a></li>
-                            <li class="footerLinkBar"><p>|</p></li>
+                            <li><p>|</p></li>
                             <li class="footerLink"><a id="footerLink" href="politiquecookies.php">Politique Cookies</a></li>
-                            <li class="footerLinkBar"><p>|</p></li>
+                            <li><p>|</p></li>
                             <li class="footerLink"><a id="footerLink" href="politiqueconfidentialite.php"><?= utf8_encode("Politique de confidentialité")?></a></li>
-                            <li class="footerLinkBar"><p>|</p></li>
+                            <li><p>|</p></li>
                             <li class="footerLink"><a id="footerLink" href="nouscontacter.php">Nous contacter</a></li>
                         </ul>
                         <p id="watermark">
