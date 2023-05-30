@@ -22,9 +22,15 @@
                             <li class="footerLink"><a id="footerLink" href="plansite.php">Plan du site</a></li>
                             <li><p>|</p></li>
                             <li class="footerLink"><a id="footerLink" href="politiquecookies.php">Politique Cookies</a></li>
+<<<<<<< Updated upstream
                             <li><p>|</p></li>
                             <li class="footerLink"><a id="footerLink" href="politiqueconfidentialite.php"><?= utf8_encode("Politique de confidentialitÈ")?></a></li>
                             <li><p>|</p></li>
+=======
+                            <li class="footerLinkBar"><p>|</p></li>
+                            <li class="footerLink"><a id="footerLink" href="politiqueconfidentialite.php">"Politique de confidentialit√© </a></li>
+                            <li class="footerLinkBar"><p>|</p></li>
+>>>>>>> Stashed changes
                             <li class="footerLink"><a id="footerLink" href="nouscontacter.php">Nous contacter</a></li>
                         </ul>
                         <p id="watermark">
@@ -35,7 +41,7 @@
             </div>
             <div class="prevention">
                 <h4>
-                    <?= utf8_encode("L'abus d'alcool est dangereux pour la santÈ, ‡ consommer avec modÈration.")?>
+                    L'abus d'alcool est dangereux pour la sant√©, √† consommer avec mod√©ration.
                 </h4>
             </div>
         </footer>

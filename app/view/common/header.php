@@ -28,7 +28,11 @@
             <section name="Fil d'Ariane">
                 <div class="filAriane">
                     <h4>Vous êtes ici : </h4>
+<<<<<<< Updated upstream
                     <a href="#"><?= $page_title ?></a>
+=======
+                    <a href="#"><?=$page_title ?></a>
+>>>>>>> Stashed changes
                 </div>
             </section>
         </header>

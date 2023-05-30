@@ -7,7 +7,11 @@
             </h1>
             <div class="carrouselDecouvrirPlus">
                 <img class="carrouselFleche" src="app/public/css/images/lien_fleche.png" alt="" />
+<<<<<<< Updated upstream
                 <a class="carrouselLien" href="nosbieres.php">Découvrir plus</a>
+=======
+                <a class="carrouselLien" href="">Découvrir plus</a>
+>>>>>>> Stashed changes
             </div>
         </div>
         <div class="carrouselBoutons">
@@ -30,8 +34,12 @@
         </h1>
         <div class="pub">
             <video controls width="1280">
+<<<<<<< Updated upstream
                 <source src="app/public/css/images/publicite2023.mp4" alt="Publicit� 2023">
                 </source>
+=======
+                <source src="app/public/css/images/publicite2023.mp4" alt="Publicité 2023"></source>
+>>>>>>> Stashed changes
             </video>
         </div>
     </section>
