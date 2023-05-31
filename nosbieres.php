@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-require_once 'config.php';
-require_once 'utils.php';
+require_once 'app/config.php';
+require_once 'app/utils.php';
 require_once 'app/model/dataConnection.php';
 require_once 'app/model/flamista.model.php';
 

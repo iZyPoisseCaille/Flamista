@@ -1,31 +1,50 @@
 <main>
-    <!--CAROUSEL-->
-    <section name="carrousel" class="carrouselImgs">
+    <!--CARROUSEL-->
+    <section name="carrousel" id="carrouselImgs">
         <div class="carrouselElements">
             <h1 class="carrouselTitre">
                 Découvrez nos bières dans notre brasserie.
             </h1>
             <div class="carrouselDecouvrirPlus">
                 <img class="carrouselFleche" src="app/public/css/images/lien_fleche.png" alt="" />
-<<<<<<< Updated upstream
                 <a class="carrouselLien" href="nosbieres.php">Découvrir plus</a>
-=======
-                <a class="carrouselLien" href="">Découvrir plus</a>
->>>>>>> Stashed changes
             </div>
         </div>
         <div class="carrouselBoutons">
-            <button class="carrouselBouton">
-
-            </button>
-            <button class="carrouselBouton">
-
-            </button>
-            <button class="carrouselBouton">
-
-            </button>
+            <button onclick="ChangeImage(1)" class="carrouselBouton"></button>
+            <button onclick="ChangeImage(4)" class="carrouselBouton"></button> <!-- Pour une raison que j'ignore, si je met 2 ça n'affiche que l'image de test et non pas l'image qui est sensée s'afficher -->
+            <button onclick="ChangeImage(3)" class="carrouselBouton"></button>
         </div>
+        <script>
+            var x = document.getElementById("carrouselImgs");
+            var boutons = document.getElementsByClassName("carrouselBouton");
+            var link = 'app/public/css/images/carrousel/';
+
+            boutons[0].style.backgroundColor = 'white';
+            boutons[0].style.border = 'solid gray';
+
+            function ChangeImage(num) {
+                var imageLink = link + num + ".png";
+                x.style.backgroundImage = "url('" + imageLink + "')";
+
+                for (var i = 0; i < boutons.length; i++) {
+                    boutons[i].style.backgroundColor = 'transparent';
+                    boutons[i].style.border = 'solid white';
+                }
+
+                if(num == 4) {
+                    boutons[1].style.backgroundColor = 'white';
+                    boutons[1].style.border = 'solid gray';
+                }
+                else
+                    boutons[num - 1].style.backgroundColor = 'white';
+                    boutons[num - 1].style.border = 'solid gray';
+            }
+        </script>
+
     </section>
+
+
 
     <!--PUBLICITE-->
     <section name="video">
@@ -34,12 +53,8 @@
         </h1>
         <div class="pub">
             <video controls width="1280">
-<<<<<<< Updated upstream
-                <source src="app/public/css/images/publicite2023.mp4" alt="Publicit� 2023">
+                <source src="app/public/css/images/publicite2023.mp4" alt="Publicité 2023">
                 </source>
-=======
-                <source src="app/public/css/images/publicite2023.mp4" alt="Publicité 2023"></source>
->>>>>>> Stashed changes
             </video>
         </div>
     </section>

@@ -16,7 +16,7 @@
             <?php foreach ($bieres as $biere) : ?>
                 <!--BIERE-->
                 <div id="biere">
-                    <img src="app/public/css/images/bieres/<?= formatNumBiere($biere['num']) ?>.png" alt="" />
+                    <img src="app/public/css/images/bieres/<?= formatNumBiere($biere['num']) ?>.png" alt="Image de la bière nommée <?= $biere['nom'] ?>." />
                     <h2><?= $biere['nom'] ?></h2>
                     <p><?= $biere['description'] ?></p>
                     <div class="biereLink">

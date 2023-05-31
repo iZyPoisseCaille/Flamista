@@ -2,6 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="app/public/css/layout_stylesheet.css" />
         <link rel="stylesheet" type="text/css" href=<?= $doccss_ref?> />
         <style>
             @import url('https://fonts.cdnfonts.com/css/caviar-dreams');
@@ -28,11 +29,7 @@
             <section name="Fil d'Ariane">
                 <div class="filAriane">
                     <h4>Vous êtes ici : </h4>
-<<<<<<< Updated upstream
                     <a href="#"><?= $page_title ?></a>
-=======
-                    <a href="#"><?=$page_title ?></a>
->>>>>>> Stashed changes
                 </div>
             </section>
         </header>

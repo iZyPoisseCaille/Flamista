@@ -1,4 +1,13 @@
 <?php
+
+require_once 'config.php';
+require_once 'utils.php';
+require_once 'app/model/dataConnection.php';
+
+$databaseConnection = getDatabaseConnection();
+
+$bieres = getBieres ($databaseConnection);
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nom = $_POST["nom"];
     $prenom = $_POST["prenom"];
@@ -14,7 +23,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $imbibe = $_POST["imbibe"];
     $pompette = $_POST["pompette"];
     $torche = $_POST["torche"];
-
 
 
     // Traitez les données comme vous le souhaitez

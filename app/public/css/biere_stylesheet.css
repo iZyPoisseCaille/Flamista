@@ -1,187 +1,118 @@
-/*EVERYTHING*/
-* {
-    margin: 0;
-}
-
-body {
-    background-color: white;
-}
-
-/*HEADER*/
-header nav {
-    display: flex;
-    justify-content: center;
-}
-
-header nav ul {
-    margin: 0;
-    padding: 0;
-    width: 70%;
-    display: flex;
-    justify-content: center;
-}
-
-header nav li {
-    list-style: none;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
-.headerLink {
-    padding-top: 45px;
-    margin-bottom: -50px;
-}
-
-#headerLink:hover {
-    text-decoration: underline;
-    color: #00B9F0;
-}
-
-#headerLink {
-    text-decoration: none;
-    font-family: 'Caviar Dreams';
-    color: black;
-    text-align: center;
-    font-size: 1em;
-}
-
-#logo img {
-    width: 100px;
-    height: 100px;
-}
-
-.filAriane {
-    font-family: 'Biko';
-    background-color: #00B9F0;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.filAriane h4, .filAriane a {
-    display: inline-block;
-    color: black;
-}
-
-.filAriane a:hover {
-    color: #F5F501;
-}
-
 /*MAIN*/
 
-
-
-/*FOOTER*/
-footer {
-    margin-top: 2%;
-    padding-bottom: 1%;
-}
-
-#footer {
-    background-color: #00B9F0;
+/*BIERE*/
+.biere {
+    width: 80%;
+    
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
     margin-left: 10%;
     margin-right: 10%;
-    padding-bottom: 2%;
+
+    display: flex;
+
+    box-shadow: 0px 10px 30px 2px rgba(0, 0, 0, 0.15);
 }
 
-.footerLogo {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding-top: 0.5%;
+#description {
+    width: 50%;
+
+    margin-right:5%;
+    margin-left: 5%;
+}
+
+.biereImg {
+    width: 40%;
+}
+
+.biereImg img {
+    max-width: 100%;
+}
+
+.biereNom {
     margin-bottom: 2%;
 }
 
-.footerLogo img {
-    width: 10%;
-    height: auto;
-    background-color: white;
-}
-
-.reseauxSociaux {
-    display: flex;
-    justify-content: center;
-}
-
-.reseauxSociaux h2 {
+.biereNom h1 {
     font-family: 'Caviar Dreams';
-    font-size: 2em;
+    font-size: 2.5em;
+    font-weight: 700;
+
+    text-align: left;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.reseauxBoutons {
+.biereDescription {
+    width: 80%;
+
+    margin-bottom: 5%;
+}
+
+.biereDescription p, .biereComposition li {
+    font-family: 'Biko';
+    font-size: 1em;
+    font-weight: 300;
+    
+    text-align: left;
+}
+
+.biereComposition {
+    width: 80%;
+}
+
+.biereComposition h2 {
+    font-family: 'Caviar Dreams';
+    font-size: 1.3em;
+
     margin-bottom: 2%;
 }
 
-.reseauxBoutons ul {
-    list-style: none;
-    width: 100%;
-    margin-top: -3%;
-    margin-left: -20%;
+.biereComposition li {
+    margin-bottom: 1%;
+
+    text-align: left;
 }
 
-.footerReseauxLink {
-    display: inline-block;
-    margin-right: 3%;
-}
+.acheter {
+    margin-top: 12%;
+    margin-bottom: 5%;
 
-.footerReseauxLink img {
-    width: 50px;
-    border: 3px solid black;
-    border-radius: 100%;
-}
-
-.plansite nav {
     display: flex;
     justify-content: center;
-    margin-left: 2%;
-    margin-right: 2%;
 }
 
-.plansite nav ul {
-    list-style: none;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-left: 17.5%;
-}
+.acheter a {
+    background-color: #f5d001;
 
-.footerLink {
-    margin-left: 2%;
-    margin-right: 2%;
-}
+    width: auto;
 
-#footerLink {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1.5%;
+    
+    box-shadow: 0px 10px 30px 2px rgba(0, 0, 0, 0.15);
+    
+    border-radius: 5px;
+
+    text-align: center;
+    font-family: 'Biko';
+    font-weight: 700;
+    font-size: 1.5em;
     text-decoration: none;
-    font-family: 'Caviar Dreams';
-    color: black;
-    text-align: center;
-    font-size: 1em;
+    
+    color: white;
 }
 
-#footerLink:hover {
-    text-decoration: underline;
-    color: #F5F501;
+.acheter a img {
+    width: 25px;
+    height: 25px;
+
+    transform: translateX(-15%) translateY(10%);
 }
 
-#watermark {
-    font-family: 'Caviar Dreams';
-    color: black;
-    text-align: right;
-    font-size: 1em;
-    width: 30%;
-    margin-right: 2.5%;
-}
-
-.prevention {
-    display: flex;
-    justify-content: center;
-    margin-top: 1%;
-}
-
-.prevention h4 {
-    font-family: Biko;
-    color: black;
-    text-align: center;
-    font-size: .75em;
+.acheter a:hover {
+    background-color: #f5d901;
 }
