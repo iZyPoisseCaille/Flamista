@@ -36,7 +36,7 @@
 </script>
 
 <main>
-    <h2>Formulaire de commande</h2>
+    <h2>Formulaire de commande</h2><br>
     <form method="post" action="traitement_commande.php">
         <label for="nom">Nom :</label>
         <input type="text" name="nom" placeholder="Melon" required><br><br>
@@ -65,7 +65,7 @@
 
         <div id="produits">
             <div>
-                <label>Produits :<br></label>
+                <label><h3>Produits :</h3><br></label>
                 <label><strong>Arraché</strong> Quantité : </label><input name="arrache" type="number" max="20" min="0" value="0" required><br><br>
                 <label><strong>Aviné</strong> Quantité : </label><input name="avine" type="number" max="20" min="0" value="0" required><br><br>
                 <label><strong>Éméché</strong> Quantité : </label><input name="emeche" type="number" max="20" min="0" value="0" required><br><br>
@@ -73,9 +73,16 @@
                 <label><strong>Pompette</strong> Quantité : </label><input name="pompette" type="number" max="20" min="0" value="0" required><br><br>
                 <label><strong>Torché</strong> Quantité : </label><input name="torche" type="number" max="20" min="0" value="0" required>
             </div>
-        </div>
+        </div><br>
+        <?php
+            $boutonDesactive = false;
+            if ($boutonDesactive) {
+                echo '<input type="submit" value="Passer la commande" disabled>';
+            } else {
+                echo '<input type="submit" value="Passer la commande">';
+            }
+        ?>
 
-        <input type="submit" value="Passer la commande">
     </form>
 
 </main>
