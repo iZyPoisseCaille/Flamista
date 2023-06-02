@@ -23,7 +23,7 @@
                         </h2>
                     </div>
                     <div class="teammateLink">
-                        <img src="app/public/css/images/lien_fleche.png" alt="Fleche" />
+                        <img src="app/public/css/images/lien_fleche.png" alt="Illustration de flêche" />
                         <a href="<?= URL ?>teammateMMI.php?num=<?= formatNumBiere($teammateMMI['num']) ?>">En savoir plus</a>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                         </h2>
                     </div>
                     <div class="teammateLink">
-                        <img src="app/public/css/images/lien_fleche.png" alt="Fleche" />
+                        <img src="app/public/css/images/lien_fleche.png" alt="Illustration de flêche" />
                         <a href="<?= URL ?>teammateGB.php?num=<?= formatNumBiere($teammateGB['num']) ?>">En savoir plus</a>
                     </div>
                 </div>

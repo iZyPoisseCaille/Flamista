@@ -13,5 +13,5 @@ REPLACE INTO `teammateMMI` VALUES (4,'Noam','Infographiste','');
 REPLACE INTO `teammateMMI` VALUES (5,'Tom','Monteur, community manager','Salut ! Moi c''est Tom, je suis étudiant en BUT Métiers du Multimédia et de l''Internet et j''ai fais partie du projet SAE de notre marque de bière ! Au cours de ce semestre, mon rôle a notamment été de réaliser les diapositives de nos rendus, faire le montage des vidéos et de communiquer sur les réseaux  sociaux !');
 
 REPLACE INTO `teammateGB` VALUES (1,'Antonin','Fabricant','Bonjour, je suis Antonin Gauchy un étudiant en Génie Biologique, je suis quelqu''un de joyeux et sympathique et au cours de cette SAE j''ai participé en temps que membre de groupe à la préparation de la bière !');
-REPLACE INTO `teammateGB` VALUES (2,'Lana','Chef d''équipe','Salut, je suis Lana. Passionnée par la nature et les animaux, j''ai été la cheffe de groupe de mon équipe de génie biologique  durant ce projet de fabrication d''une bière. Ce fut une expérience très enrichissante !');
+REPLACE INTO `teammateGB` VALUES (2,'Lana','Cheffe d''équipe','Salut, je suis Lana. Passionnée par la nature et les animaux, j''ai été la cheffe de groupe de mon équipe de génie biologique  durant ce projet de fabrication d''une bière. Ce fut une expérience très enrichissante !');
 REPLACE INTO `teammateGB` VALUES (3,'Léonie','Farbricant','');

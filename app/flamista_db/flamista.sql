@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `teammateMMI` (
 	`id_teammate` INT,
 	`nom` VARCHAR(255) NOT NULL,
 	`role` VARCHAR(255) NOT NULL,
-	`description` VARCHAR(255) NOT NULL,
+	`description` VARCHAR(500) NOT NULL,
 	PRIMARY KEY(`id_teammate`)
 );
 
@@ -37,6 +37,6 @@ CREATE TABLE IF NOT EXISTS `teammateGB` (
 	`id_teammate` INT,
 	`nom` VARCHAR(255) NOT NULL,
 	`role` VARCHAR(255) NOT NULL,
-	`description` VARCHAR(255) NOT NULL,
+	`description` VARCHAR(500) NOT NULL,
 	PRIMARY KEY(`id_teammate`)
 );

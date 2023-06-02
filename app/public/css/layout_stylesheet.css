@@ -95,7 +95,10 @@ footer {
 .footerLogo img {
     width: 10%;
     height: auto;
+
     background-color: white;
+
+    border-radius: 10%;
 }
 
 .reseauxSociaux {

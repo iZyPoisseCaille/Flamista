@@ -2,9 +2,9 @@
     <section name="teammate">
         <div class="teammate">
             <div class="teammateImg">
-                <?php if ($teammate[0]['nom'] == "Antonin" || $teammate[0]['nom'] == "Lana" || $teammate[0]['nom'] == "Léonie") : ?>
+                <?php if ($teammate[0]['nom'] == "Antonin" || $teammate[0]['nom'] == "Lana" || $teammate[0]['nom'] == "LÃ©onie") : ?>
                 <img src="app/public/css/images/teammatesGB/<?= $_GET['num'] ?>.png" alt="Image de <?= $teammate[0]['nom'] ?>." />
-                <?php elseif ($teammate[0]['nom'] != "Antonin" && $teammate[0]['nom'] != "Lana" && $teammate[0]['nom'] != "Léonie") : ?>
+                <?php else : ?>
                 <img src="app/public/css/images/teammatesMMI/<?= $_GET['num'] ?>.png" alt="Image de <?= $teammate[0]['nom'] ?>." />
                 <?php endif; ?>
             </div>

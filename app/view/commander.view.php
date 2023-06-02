@@ -42,7 +42,7 @@
         <input type="text" name="nom" placeholder="Melon" required><br><br>
 
         <label for="prenom">Prénom :</label>
-        <input type="text" name="prenom" placeholder="Monsieur" required><br><br>
+        <input type="text" name="prenom" placeholder="Jean" required><br><br>
 
         <label for="city">Ville :</label>
         <input type="text" name="city" placeholder="Moissy-Cramayel" required><br><br>
@@ -61,11 +61,11 @@
         <input type="text" name="adresse" placeholder="240 rue de la Motte" required><br><br>
 
         <label for="email">Email :</label>
-        <input type="email" name="email" placeholder="monsieur.melon@sumail.fr" required><br><br>
+        <input type="email" name="email" placeholder="jean.melon@mail.fr" required><br><br>
 
         <div id="produits">
             <div>
-                <label class="produits">Produits :<br></label>
+                <label class="produits">Produits<br></label>
                 <label><strong>Arraché</strong> Quantité : </label><input name="arrache" type="number" max="20" min="0" value="0" required><br><br>
                 <label><strong>Aviné</strong> Quantité : </label><input name="avine" type="number" max="20" min="0" value="0" required><br><br>
                 <label><strong>Éméché</strong> Quantité : </label><input name="emeche" type="number" max="20" min="0" value="0" required><br><br>
