@@ -5,19 +5,19 @@
                 </div>
                 <div class="reseauxSociaux">
                     <h2>
-                        Suivez nous : 
+                        Suivez-nous : 
                     </h2>
                     <div class="reseauxBoutons">
                         <ul>
-                            <li class="footerReseauxLink"><a href=""><img src="app/public/css/images/twitter_icon.png" alt="Twitter"/></a></li>
-                            <li class="footerReseauxLink"><a href=""><img src="app/public/css/images/instagram_icon.png" alt="Instagram"/></a></li>
+                            <li class="footerReseauxLink"><a href="https://twitter.com/Flamista_FR"><img src="app/public/css/images/twitter_icon.png" alt="Twitter"/></a></li>
+                            <li class="footerReseauxLink"><a href="https://www.instagram.com/flamista_fr/"><img src="app/public/css/images/instagram_icon.png" alt="Instagram"/></a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="plansite">
                     <nav>
                         <ul>
-                            <li class="footerLink"><a id="footerLink" href="accueil.php">Accueil</a></li>
+                            <li class="footerLink"><a id="footerLink" href="index.php">Accueil</a></li>
                             <li><p>|</p></li>
                             <li class="footerLink"><a id="footerLink" href="plansite.php">Plan du site</a></li>
                             <!-- <li><p>|</p></li>

@@ -10,7 +10,7 @@
             <?php foreach ($teammatesMMI as $teammateMMI) : ?>
                 <div id="carte">
                     <div class="carteImg">
-                        <img src="app/public/css/images/teammatesMMI/00<?= $teammateMMI['num'] ?>" alt="Photo de <?= $teammateMMI['nom'] ?>." />
+                        <img src="app/public/css/images/teammatesMMI/00<?= $teammateMMI['num'] ?>.png" alt="Photo de <?= $teammateMMI['nom'] ?>." />
                     </div>
                     <div class="carteNom">
                         <h1>
@@ -41,7 +41,7 @@
             <?php foreach ($teammatesGB as $teammateGB) : ?>
                 <div id="carte">
                     <div class="carteImg">
-                        <img src="app/public/css/images/teammatesGB/00<?= $teammateGB['num'] ?>" alt="Photo de <?= $teammateGB['nom'] ?>." />
+                        <img src="app/public/css/images/teammatesGB/00<?= $teammateGB['num'] ?>.png" alt="Photo de <?= $teammateGB['nom'] ?>." />
                     </div>
                     <div class="carteNom">
                         <h1>

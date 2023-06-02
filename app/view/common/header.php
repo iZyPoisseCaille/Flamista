@@ -19,7 +19,7 @@
             <!--NAVIGATION-->
             <nav>
                 <ul>
-                    <li id="logo"><a href="accueil.php"><img src="app/public/css/images/logo_noir.png" alt="Accueil Flamista" /></a></li>
+                    <li id="logo"><a href="index.php"><img src="app/public/css/images/logo_noir.png" alt="Accueil Flamista" /></a></li>
                     <li class="headerLink"><a id="headerLink" href="quisommesnous.php">Qui sommes-nous ?</a></li>
                     <li class="headerLink"><a id="headerLink" href="notreproduction.php">Notre production</a></li>
                     <li class="headerLink"><a id="headerLink" href="nosbieres.php">Nos bières</a></li>
