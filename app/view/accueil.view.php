@@ -78,7 +78,7 @@
                     Nous nous engageons à produire des bières de qualité tout en restant avec une empreinte carbone à 0%.
                 </p>
                 <p>
-                    Limiter notre consommation d'eau. Pour créer une bière de qualité, il faut de l'eau : mais ce n'est pas pour autant qu'on ne doit pois l'utiliser modérément.
+                    Limiter notre consommation d'eau. Pour créer une bière de qualité, il faut de l'eau : mais ce n'est pas pour autant qu'on ne doit pas l'utiliser modérément.
                 </p>
                 <p>
                     Les prix de nos produits sont à un prix extrêmement affordable pour n'importe quel étudiant.

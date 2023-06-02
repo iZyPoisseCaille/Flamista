@@ -1,0 +1,103 @@
+.titre {
+    font-family: 'Caviar Dreams';
+    font-size: 3em;
+
+    text-align: center;
+
+    color: black;
+
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.soustitre {
+    font-family: 'Biko';
+    font-size: 1.5em;
+
+    text-align: center;
+
+    color: black;
+
+    margin-bottom: 2%;
+}
+
+.equipe {
+    display: grid;
+    
+    grid-template-rows: auto;
+
+    column-gap: 2%;
+    row-gap: 5%;
+
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.presentationEquipeMMI .equipe {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.presentationEquipeGB .equipe {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#carte {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.carteImg img {
+    max-width: 100%;
+    height: auto;
+
+    border-radius: 100%;
+}
+
+.carteNom {
+    text-align: center;
+
+    font-size: 1.25em;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.carteRole {
+    text-align: center;
+
+    font-size: 0.8em;
+
+    margin-bottom: 5%;
+}
+
+.carteNom, .carteRole {
+    font-family: 'Caviar Dreams';
+}
+
+.teammateLink {
+    margin-top: 2.5%; 
+}
+
+.teammateLink img {
+    width: 15px;
+    height: 15px;
+}
+
+.teammateLink a {
+    text-align: left;
+
+    font-family: 'Biko';
+    font-size: 1em;
+
+    color: #00B9F0;
+    text-decoration: none;
+}
+
+.teammateLink a:hover {
+    color: #0099F0;
+    text-decoration: underline;
+}

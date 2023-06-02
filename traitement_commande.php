@@ -3,8 +3,8 @@
 require_once 'app/config.php';
 require_once 'app/utils.php';
 require_once 'app/model/dataConnection.php';
-    
-$databaseConnection = getDatabaseConnectionToMySQl();
+
+$databaseConnection = getDatabaseConnection();
 
 $bieres = getBieres ($databaseConnection);
 

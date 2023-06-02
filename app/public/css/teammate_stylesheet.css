@@ -1,0 +1,73 @@
+/*MAIN*/
+
+/*BIERE*/
+.teammate {
+    width: 80%;
+    
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    display: flex;
+
+    box-shadow: 0px 10px 30px 2px rgba(0, 0, 0, 0.15);
+}
+
+#description {
+    width: 50%;
+
+    margin-right:5%;
+    margin-left: 10%;
+}
+
+.teammateImg {
+    width: 30%;
+}
+
+.teammateImg img {
+    max-width: 100%;
+}
+
+.teammateNom {
+    margin-bottom: 2%;
+}
+
+.teammateNom h1 {
+    font-family: 'Caviar Dreams';
+    font-size: 2.5em;
+    font-weight: 700;
+
+    text-align: left;
+
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.teammateRole {
+    margin-bottom: 2%;
+}
+
+.teammateRole h2 {
+    font-family: 'Caviar Dreams';
+    font-size: 1.5em;
+    font-weight: 700;
+
+    text-align: left;
+
+    margin-bottom: 5%;
+}
+
+.teammateDescription {
+    width: 80%;
+
+    margin-bottom: 5%;
+}
+
+.teammateDescription p{
+    font-family: 'Biko';
+    font-size: 1em;
+    font-weight: 300;
+    
+    text-align: left;
+}

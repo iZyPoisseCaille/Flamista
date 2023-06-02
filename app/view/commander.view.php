@@ -36,7 +36,7 @@
 </script>
 
 <main>
-    <h2>Formulaire de commande</h2><br>
+    <h2>Formulaire de commande</h2>
     <form method="post" action="traitement_commande.php">
         <label for="nom">Nom :</label>
         <input type="text" name="nom" placeholder="Melon" required><br><br>
@@ -45,7 +45,7 @@
         <input type="text" name="prenom" placeholder="Monsieur" required><br><br>
 
         <label for="city">Ville :</label>
-        <input type="text" name="city" placeholder="Paris" required><br><br>
+        <input type="text" name="city" placeholder="Moissy-Cramayel" required><br><br>
 
         <label for="postal">Code postal :</label>
         <input type="number" max="99999" min="0" name="postal" placeholder="12345" required><br><br>
@@ -58,14 +58,14 @@
         </script>
 
         <label for="adresse">Adresse :</label>
-        <input type="text" name="adresse" placeholder="10 rue de la Place" required><br><br>
+        <input type="text" name="adresse" placeholder="240 rue de la Motte" required><br><br>
 
         <label for="email">Email :</label>
         <input type="email" name="email" placeholder="monsieur.melon@sumail.fr" required><br><br>
 
         <div id="produits">
             <div>
-                <label><h3>Produits :</h3><br></label>
+                <label class="produits">Produits :<br></label>
                 <label><strong>Arraché</strong> Quantité : </label><input name="arrache" type="number" max="20" min="0" value="0" required><br><br>
                 <label><strong>Aviné</strong> Quantité : </label><input name="avine" type="number" max="20" min="0" value="0" required><br><br>
                 <label><strong>Éméché</strong> Quantité : </label><input name="emeche" type="number" max="20" min="0" value="0" required><br><br>
@@ -73,16 +73,10 @@
                 <label><strong>Pompette</strong> Quantité : </label><input name="pompette" type="number" max="20" min="0" value="0" required><br><br>
                 <label><strong>Torché</strong> Quantité : </label><input name="torche" type="number" max="20" min="0" value="0" required>
             </div>
-        </div><br>
-        <?php
-            $boutonDesactive = false;
-            if ($boutonDesactive) {
-                echo '<input type="submit" value="Passer la commande" disabled>';
-            } else {
-                echo '<input type="submit" value="Passer la commande">';
-            }
-        ?>
+        </div>
 
+        <img class="submitImg" src="app/public/css/images/cart.png" alt="Icone de caddie." />
+        <input class="submit" type="submit" value="Passer la commande">
     </form>
 
 </main>
